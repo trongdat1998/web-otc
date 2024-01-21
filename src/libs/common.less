@@ -1,0 +1,31 @@
+.tran(@p: all, @t: 0.5s, @f: ease) {
+    -webkit-transition: @p @t @f;
+    -moz-transition: @p @t @f;
+    -o-transition: @p @t @f;
+    transition: @p @t @f;
+}
+
+@import "../components/button/index.less";
+@import "../components/icon/index.less";
+@import "../components/header/index.less";
+@import "../components/footer/index.less";
+@import "../components/nav/index.less";
+@import "../components/avatar/index.less";
+@import "../components/dialog/index.less";
+@import "../components/page/index.less";
+@import "../components/input/index.less";
+@import "../components/selects/index.less";
+@import "../components/dropmenu/index.less";
+@import "../components/tips/index.less";
+@import "../components/no-data/index.less";
+
+.ivu-table {
+    &-tip {
+        height: 320px;
+        background: url("../assets/empty.png") center no-repeat;
+        background-size: 200px 200px;
+        table{
+            display: none;
+        }
+    }
+}

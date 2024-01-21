@@ -1,0 +1,7 @@
+build
+
+node_modules
+public/charting_library
+src/router/kline
+/.idea
+.DS_Store
